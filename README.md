@@ -1,13 +1,15 @@
 #API Tracker [Kapook]
 
-#####tracking#####
+*tracking*
 
-#####URL##### http://202.183.165.1:2223/
+*URL* http://202.183.165.1:2223/
 
-#####Method##### POST
+*Method* POST
 
-#####JSON Data#####
+*JSON Data*
+
 ```
+
 fbid	string
 age   int
 gender int   [1:male, 2:female,...]
@@ -21,7 +23,7 @@ datetime int [timestamp in unix]
 ```
 
 
-#####Example#####
+*Example*
 ```
 {
 "transid":"1234",
@@ -43,7 +45,7 @@ datetime int [timestamp in unix]
 }
 ```
 
-Response:
+*Response:*
 status string ["ok","error"]
 detail string
 
@@ -53,9 +55,10 @@ detail:""
 }
 
 
-PHP Example:
+*PHP Example:*
 
 ```
+
 <?php
     $data = json_encode(array(      
         'transid' => $transid,
