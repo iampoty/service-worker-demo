@@ -1,12 +1,12 @@
 #API Tracker [Kapook]
 
-*tracking*
+#tracking
 
-*URL* http://202.183.165.1:2223/
+#URL http://202.183.165.1:2223/
 
-*Method* POST
+#Method POST
 
-*JSON Data*
+#JSON Data
 
 ```
 
@@ -23,7 +23,7 @@ datetime int [timestamp in unix]
 ```
 
 
-*Example*
+#Example
 ```
 {
 "transid":"1234",
@@ -45,17 +45,18 @@ datetime int [timestamp in unix]
 }
 ```
 
-*Response:*
+#Response:
 status string ["ok","error"]
 detail string
 
+```
 {
 status:"ok",
 detail:""
 }
+```
 
-
-*PHP Example:*
+#PHP Example:
 
 ```
 
