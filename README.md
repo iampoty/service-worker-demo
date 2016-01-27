@@ -1,11 +1,9 @@
 # service-worker-demo
 
-<pre>
+##tracking##
 
-<?php
+##URL:## http://202.183.165.1:2223/
 
-echo "Hello";
+##Method:## POST
 
-?>
-
-</pre>
+##JSON Data:##
